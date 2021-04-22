@@ -16,7 +16,7 @@ This will initiate a qt-gui restart if the root access is succesfull.
 
 ## Rooting with payload
 
-The payload file contains the script which is run when the main script has root access. The payload script in the repository will block VPN, edit firewall, change password to 'toon', install dropbear (SSH access) and finally run a update-script with -f option to finish a complete rooted toon. But you can create your own payload if you like.
+The payload file contains the script which is run when the main script has root access. The payload script in the repository will open the firewall, change password to 'toon', install dropbear (SSH access) and finally run a update-script with -f option to finish a complete rooted toon. But you can create your own payload if you like.
 
 To initiate a Toon root with payload initiate the script with ```sudo bash root-toon.sh payload```
 
